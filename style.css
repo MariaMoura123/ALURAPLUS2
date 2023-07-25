@@ -1,5 +1,5 @@
 :root{--branco-principal:#FFFFFF;
-  --cinza-secundario:#COCOCO;
+  --cinza-secundario:#C0C0C0;
   --botao-azul:#1676f7;
   --cor-de-fundo:#00030c;
   --fonte-principal:'inter';}
@@ -13,13 +13,14 @@ background-color:var(--cor-de-fundo);
  *{
    margin:0;
 padding:0;}
-.principal{background-imagem:url("imagem");
+.principal{
+  background-image: url(Background.png);
      background-repeat:no-repeat;
      background-size:contain;}
 .container{
   height:100vh;
      display:grid;
-     grid-templade-columns:50%50%;
+     grid-template-columns:50%50%;
      }
 .container__botao{background-color:var(--botao-azul);
             border-radius:5px;
